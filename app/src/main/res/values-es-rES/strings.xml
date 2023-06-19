@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaAndroidAvanzado</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="first_fragment_label">Primer Fragmento</string>
+    <string name="second_fragment_label">Segundo Fragmento</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="lorem_ipsum">Tocho Lorem ipsum</string>
+    <string name="login_email_hint">Correo Electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_save">Guardar los datos de sesión para hacer autologin.</string>
+    <string name="login_login_button">Acceder</string>
+    <string name="title_list">Enciclopedia Dragon Ball</string>
+    <string name="heroe_detail">Detalle</string>
+</resources>
