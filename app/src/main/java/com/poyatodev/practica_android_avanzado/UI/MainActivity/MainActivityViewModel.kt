@@ -52,7 +52,7 @@ class MainActivityViewModel @Inject constructor(
             val result = withContext(Dispatchers.IO){
                 repositoryImpl.getHeroe(id)
             }
-            _heroe.value = result //TODO check later after setting all the methods
+            _heroe.value = result
         }
     }
 

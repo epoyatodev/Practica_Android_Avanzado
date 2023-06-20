@@ -33,7 +33,6 @@ class LoginActivity : AppCompatActivity() {
                 saveDataInPreferences(binding.etEmail.text.toString(),binding.etPassword.text.toString())
                 launchMainActivity()
             }else{
-                //TODO start activity sending the token or somehing, stat the activity sengind the token
                 launchMainActivity()
             }
         }
@@ -45,7 +44,6 @@ class LoginActivity : AppCompatActivity() {
                 viewModel.performLogin(email,password)
             }else{
                 binding.etEmail.setError("This field is empty or the email is invalid")
-                //TODO set more validations in case email or password are incorreect
             }
         }
     }

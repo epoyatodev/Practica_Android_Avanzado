@@ -26,7 +26,6 @@ import dagger.hilt.android.AndroidEntryPoint
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-//TODO probably I should add a @Entrypoint like in the list fragment
 @AndroidEntryPoint
 class SecondFragment : Fragment(), OnMapReadyCallback {
 
@@ -112,7 +111,8 @@ class SecondFragment : Fragment(), OnMapReadyCallback {
     private fun onFavButtonClicked(){
 
         if(viewModel.heroe.value != null){
-            val updatedHeroe = viewModel.heroe.value as Heroe //TODO review, danger dangerous.
+            val updatedHeroe = viewModel.heroe.value as Heroe
+
             updatedHeroe.let {
                 it.isFavourite = !it.isFavourite
             }

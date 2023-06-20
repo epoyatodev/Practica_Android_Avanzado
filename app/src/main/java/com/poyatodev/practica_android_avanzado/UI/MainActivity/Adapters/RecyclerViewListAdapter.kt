@@ -48,7 +48,7 @@ class RecyclerViewListAdapter(private val onClick: (String) -> (Unit))
             heroeImage.minimumHeight  = 300
             heroeImage.load(heroe.picture) {
                 crossfade(true)
-                placeholder(R.mipmap.placeholder) //TODO casca?
+                placeholder(R.mipmap.placeholder)
                 transformations(CircleCropTransformation())
             }
             if(heroe.isFavourite){

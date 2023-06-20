@@ -4,7 +4,6 @@ import retrofit2.http.Body
 import retrofit2.http.Header
 import retrofit2.http.POST
 
-//const val empa:String = "" //TOdo change
 interface DragonBallApi {
     //Login
     @POST("/api/auth/login")

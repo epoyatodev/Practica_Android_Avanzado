@@ -26,7 +26,6 @@ class RemoteDataSourceImpl @Inject constructor(
             }else{
                 return mutableListOf()
             }
-            //TODO Fix this method. I'm not sure which refactorization would be the best.
         }
         return mutableListOf()
     }
@@ -48,7 +47,6 @@ class RemoteDataSourceImpl @Inject constructor(
                 val requestData = "Bearer $token"
                 return api.retrieveHeroeLocations(requestData, GetLocationRequestBody(id))
             }
-            //TODO Fix this method.
         }
         return mutableListOf()
     }
